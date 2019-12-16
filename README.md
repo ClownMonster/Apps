@@ -1,1 +1,1 @@
- Mobile Applications repositories
+ Mobile Applications repository
