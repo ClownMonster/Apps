@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RandNumapp</string>
+    <string name="toast_button_txt">Toast</string>
+    <string name="Count_button_txt">Count</string>
+    <string name="button">Next</string>
+    <string name="textview">0</string>
+    <string name="number_displayed">0</string>
+</resources>
