@@ -5,7 +5,6 @@ class MyAppBar extends StatelessWidget{
   MyAppBar({this.title});
   
   @override 
-
   Widget build(BuildContext context) {
     return Container(
       height: 56.0,
@@ -14,13 +13,16 @@ class MyAppBar extends StatelessWidget{
 
       child: Row(
         children: <Widget>[
-          IconButton(icon: Icon(Icons.menu) ,
+          IconButton(
+          icon: Icon(Icons.menu) ,
           tooltip: 'Navigation Menu',
           onPressed: null,
           ),
           Expanded(child: title,),
-
-          IconButton(icon: Icon(Icons.search),tooltip:'Search', onPressed: null)
+          IconButton(
+            icon: Icon(Icons.search),
+            tooltip:'Search', 
+            onPressed: null)
         ],
       ),
     );
