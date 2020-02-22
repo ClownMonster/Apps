@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-void main() {
+void main() 
+{
   runApp(MaterialApp(
-    title: 'Flutter Tutorial',
+    title: 'CLown Monsterl',
     home: TutorialHome(),
   ));
 }
