@@ -5,12 +5,12 @@ class MyAppBar extends StatelessWidget{
   MyAppBar({this.title});
   
   @override 
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+  {
     return Container(
       height: 56.0,
       padding: const EdgeInsets.symmetric(horizontal: 8.0),
       decoration: BoxDecoration(color: Colors.red[500]),
-
       child: Row(
         children: <Widget>[
           IconButton(
@@ -52,11 +52,7 @@ class MyScafold extends StatelessWidget{
 
 void main()
 {
-  runApp(MaterialApp(
-    theme: ThemeData(
-    brightness: Brightness.dark,
-    primaryColor: Colors.blueGrey
-    ),
+  runApp(MaterialApp( theme: ThemeData(brightness: Brightness.dark, primaryColor: Colors.blueGrey),
     title: 'Clown Monsters App',
     home: MyScafold(),
   ));
